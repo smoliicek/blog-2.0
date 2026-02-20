@@ -26,7 +26,10 @@ sudo chmod +x /usr/local/bin/prime-run
 exec bash
 ```
 
-> It's generally a good idea to check scripts before running and downloading them. This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.
+> [!TIP] ""
+> It's generally a good idea to check scripts before running and downloading them. 
+> 
+> This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.
 
 ## Offloading processes
 
@@ -52,7 +55,7 @@ OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
 OpenGL ES profile extensions:
 ```
 
-Now, run it with prime-run, you will see the difference immidietly:
+Now, run it with prime-run, you will see the difference immediately:
 
 ``` bash
 ~ » prime-run glxinfo | grep OpenGL

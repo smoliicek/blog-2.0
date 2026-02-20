@@ -328,10 +328,14 @@ The official drivers for NVidia GPUs allow offloading, that means that your DE a
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -s https://smoliicek.fedorapeople.org/prime-run | sudo tee /usr/local/bin/prime-run &gt;/dev/null 2&gt;&amp;<span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>sudo chmod +x /usr/local/bin/prime-run
 </span></span><span style="display:flex;"><span>exec bash
-</span></span></code></pre></div><blockquote>
-<p>It&rsquo;s generally a good idea to check scripts before running and downloading them. This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.</p>
-</blockquote>
-<h2 id="offloading-processes">Offloading processes</h2>
+</span></span></code></pre></div>
+          <link rel="stylesheet" href="/css/vendors/admonitions.css">
+    <div class="admonition tip admonition--headless">
+      <div class="admonition-content">
+        <p>It&rsquo;s generally a good idea to check scripts before running and downloading them.</p>
+<p>This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.</p>
+      </div>
+    </div><h2 id="offloading-processes">Offloading processes</h2>
 <p>Now comes the fun part! Finally offloading the processes. The process takes one argument, and that is the program you want to run (and the programs arguments)
 We can test if the script works very easily, download glx-utils using DNF <code>sudo dnf install glx-utils</code>. Then run it, and grep out OpenGL, the output will look something like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~ » glxinfo | grep OpenGL
@@ -350,7 +354,7 @@ We can test if the script works very easily, download glx-utils using DNF <code>
 </span></span><span style="display:flex;"><span>OpenGL ES profile version string: OpenGL ES 3.2 Mesa 25.3.4
 </span></span><span style="display:flex;"><span>OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
 </span></span><span style="display:flex;"><span>OpenGL ES profile extensions:
-</span></span></code></pre></div><p>Now, run it with prime-run, you will see the difference immidietly:</p>
+</span></span></code></pre></div><p>Now, run it with prime-run, you will see the difference immediately:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>~ » prime-run glxinfo | grep OpenGL
 </span></span><span style="display:flex;"><span>OpenGL vendor string: NVIDIA Corporation
 </span></span><span style="display:flex;"><span>OpenGL renderer string: NVIDIA GeForce GTX 1650/PCIe/SSE2
