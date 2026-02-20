@@ -6,22 +6,29 @@
     <description>Recent content on smoliicek - blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2024, smoliicek.cz</copyright>
-    <lastBuildDate>Tue, 29 Apr 2025 21:11:57 +0200</lastBuildDate>
+    <copyright>© 2026, smoliicek.cz</copyright>
+    <lastBuildDate>Fri, 20 Feb 2026 13:22:46 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Offloading processes to NVidia GPU on Fedora</title>
+      <link>http://localhost:1313/post/nvidia-offload/</link>
+      <pubDate>Fri, 20 Feb 2026 13:22:46 +0100</pubDate>
+      <guid>http://localhost:1313/post/nvidia-offload/</guid>
+      <description>&lt;p&gt;NVidia on Linux, it always was, and still is a pain sometimes, especially on laptops with a dual-GPU setup. Although the situation is getting better, it still isn&amp;rsquo;t perfect.&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;For a long time, I was switching between the integrated Intel GPU and dedicated NVidia GPU manually, which wasn&amp;rsquo;t ideal, but also required a re-login every time. But, the solution was right there!&lt;/p&gt;&#xA;&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;&#xA;&lt;p&gt;The official drivers for NVidia GPUs allow offloading, that means that your DE and every app you launch gets run on the integrated GPU by default, however, you can export some enviroment variables to run the process on the dedicated GPU. This means that you need to have the official drivers installed on your system, please follow this &lt;a href=&#34;https://rpmfusion.org/Howto/NVIDIA&#34;&gt;guide&lt;/a&gt; for installation instructions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Moving away from Gmail</title>
       <link>http://localhost:1313/post/moving-mails/</link>
       <pubDate>Tue, 29 Apr 2025 21:11:57 +0200</pubDate>
       <guid>http://localhost:1313/post/moving-mails/</guid>
-      <description>So yea, it happened to one more person, I finaly got fed up with Gmail.&#xA;So, why? Let&amp;rsquo;s get through the obvious things first.&#xA;google bad! google steal data! google bad Now that we have that out of the way, let&amp;rsquo;s get to actual things.&#xA;Google&amp;rsquo;s constant &amp;ldquo;harassment&amp;rdquo; Pretty much from the day i hit around 10 gigs used on my Google account, Google was constantly harrasing me and telling me to buy more storage.</description>
+      <description>&lt;p&gt;So yea, it happened to one more person, I finaly got fed up with Gmail.&lt;/p&gt;&#xA;&lt;h2 id=&#34;so-why&#34;&gt;So, why?&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s get through the obvious things first.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;google bad!&lt;/li&gt;&#xA;&lt;li&gt;google steal data!&lt;/li&gt;&#xA;&lt;li&gt;google bad&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Now that we have that out of the way, let&amp;rsquo;s get to actual things.&lt;/p&gt;&#xA;&lt;h3 id=&#34;googles-constant-harassment&#34;&gt;Google&amp;rsquo;s constant &amp;ldquo;harassment&amp;rdquo;&lt;/h3&gt;&#xA;&lt;p&gt;Pretty much from the day i hit around 10 gigs used on my Google account, Google was constantly harrasing me and telling me to buy more storage. It even got to the point that they were telling me that they will stop getting my emails if I don&amp;rsquo;t pay! (even tho i had enough storage).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello Hugo!</title>
       <link>http://localhost:1313/post/hello-world/</link>
       <pubDate>Sun, 29 Dec 2024 13:54:12 +0100</pubDate>
       <guid>http://localhost:1313/post/hello-world/</guid>
-      <description>Hello! this is an example of an article :D&#xA;some code:&#xA;const char* name = &amp;#34;Smolík Vít&amp;#34; list:&#xA;item 1 item 2 Here is a link to the thing helping me host this site, Hugo!&#xA;Here is an image: </description>
+      <description>&lt;h2 id=&#34;hello&#34;&gt;Hello!&lt;/h2&gt;&#xA;&lt;p&gt;this is an example of an article :D&lt;/p&gt;&#xA;&lt;p&gt;some code:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;char&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Smolík Vít&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;list:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;item 1&lt;/li&gt;&#xA;&lt;li&gt;item 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is a link to the thing helping me host this site, &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Here is an image:&#xA;&lt;img src=&#34;http://localhost:1313/img/hugo-logo.png&#34; alt=&#34;Hugo logo&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
