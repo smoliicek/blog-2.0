@@ -16,7 +16,7 @@ The official drivers for NVidia GPUs allow offloading, that means that your DE a
 
 ### Downloading the script
 
-I wrote a quick script for this, you can download it [from my Fedora People repository](https://smoliicek.fedorapeople.org). The script also needs to be somewhere in your $PATH. 
+I wrote a quick script for this, you can download it [from my Fedora People repository](https://smoliicek.fedorapeople.org). The script also needs to be somewhere in your $PATH.
 
 You can use something like this for the installation:
 
@@ -27,8 +27,8 @@ exec bash
 ```
 
 > [!TIP] ""
-> It's generally a good idea to check scripts before running and downloading them. 
-> 
+> It's generally a good idea to check scripts before running and downloading them.
+>
 > This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.
 
 ## Offloading processes
@@ -78,6 +78,6 @@ OpenGL ES profile extensions:
 
 ## Closing thoughts
 
-I hope this blog post helped at least somebody. If you need any help, you can reach out to me using my [personal](mailto:me@smoliicek.cz) or my [fedoraproject](mailto:smoliicek@fedoraproject.org) email adress. Happy offloading!
+I hope this blog post helped at least somebody. If you need any help, you can reach out to me using my [personal](mailto:me@smoliicek.cz) or my [Fedora](mailto:smoliicek@fedoraproject.org) email adress. Happy offloading!
 
--- Signed-off-by: smoliicek \<me@smoliicek.cz\>
+-- Signed-off-by: smoliicek [\<me@smoliicek.cz\>](mailto:me@smoliicek.cz)

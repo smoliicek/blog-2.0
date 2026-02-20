@@ -63,4 +63,4 @@ So, yea, I've actually done it. I moved (or at least started moving) away from G
 
 As Tuta said, happy encrypting!
 
--- Signed-off-by: Smajl \<me@smoliicek.cz\>
+-- Signed-off-by: smoliicek [\<me@smoliicek.cz\>](mailto:me@smoliicek.cz)
