@@ -17,13 +17,6 @@
       <description>&lt;p&gt;Renewal time. That&amp;rsquo;s usually when I start questioning my life choices, at least the email-related ones.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been a Tuta user for almost a year now. However, there are some things that have been bugging me, and since I have to decide soon anyway, I think it&amp;rsquo;s a good time now to look back and reassess.&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;Before we dive in, some context - I switched from Gmail to Tuta in &lt;a href=&#34;https://smoliicek.cz/post/moving-mails/&#34;&gt;April of 2025&lt;/a&gt;. Then, I was choosing between Proton, Tuta, Fastmail, Mailfence and Zoho. Some (like Zoho and Fastmail) aren&amp;rsquo;t hosted in countries that respect my privacy, so I crossed them off. At the end, I was choosing between Tuta and Proton (and ultimately chose Tuta).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Setting up SSO on all of my self-hosted services</title>
-      <link>http://localhost:1313/post/sso-move/</link>
-      <pubDate>Sun, 01 Mar 2026 20:56:09 +0100</pubDate>
-      <guid>http://localhost:1313/post/sso-move/</guid>
-      <description>&lt;p&gt;Recently, my mom came up to me, she forgot her NextCloud password again. It&amp;rsquo;s not a problem, just jump into the admin user, and reset the password. But that got me thinking, would it be possible to set up an SSO, so everyone would just have one password and account for all of my self-hosted services?&lt;/p&gt;&#xA;&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;Apart from the already mentioned password problem, there are a few more things.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Offloading processes to NVidia GPU on Fedora</title>
       <link>http://localhost:1313/post/nvidia-offload/</link>
       <pubDate>Fri, 20 Feb 2026 13:22:46 +0100</pubDate>
