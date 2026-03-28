@@ -59,7 +59,7 @@
   />
 
   
-  <title>Posts - smoliicek - blog</title>
+  <title>Setting up SSO on all of my self-hosted services - smoliicek - blog</title>
 
   
   <meta name="theme-color" />
@@ -68,11 +68,9 @@
   
   
   
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
+  <meta name="description" content="Recently, my mom came up to me, she forgot her NextCloud password again. It&rsquo;s not a problem, just jump into the admin user, and reset the password. But that got me thinking, would it be possible to set up an SSO, so everyone would just have one password and account for all of my self-hosted services?
+Motivation
+Apart from the already mentioned password problem, there are a few more things." />
   <meta name="author" content="Vít Smolík" />
   
 
@@ -301,83 +299,51 @@
     >
       
 
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">Setting up SSO on all of my self-hosted services</h1>
 
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Mar 1, 2026</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
 
-
-
-
-
-
-
- 
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
-  
-  <h2 class="!my-0">Tuta Switch Idea</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Mar 28, 2026</time
-  >
-  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/tuta-switch-idea/">Tuta Switch Idea</a>
+  <section><p>Recently, my mom came up to me, she forgot her NextCloud password again. It&rsquo;s not a problem, just jump into the admin user, and reset the password. But that got me thinking, would it be possible to set up an SSO, so everyone would just have one password and account for all of my self-hosted services?</p>
+<h2 id="motivation">Motivation</h2>
+<p>Apart from the already mentioned password problem, there are a few more things.</p>
+<ol>
+<li>adding users - Whenever I wanted to add a new account, I would need to login everywhere, and create the account manually. That wasn&rsquo;t a problem at first, but since I started self-hosting most of the services for my family, that meant more accounts, and we are back at the password problem.</li>
+<li>security - Some of the services don&rsquo;t really have a secure login system (looking at you, immich), so I was just hosting them locally and accessing them through local IPs, but having something like NextCloud or immich public is something that is more important then I was thinking - I&rsquo;d like to backup my photos even when I&rsquo;m out, and access to my cloud files is a no-brainer</li>
+</ol>
+<h2 id="but-how">But how?</h2>
+<p>I hear you asking, and I was asking the same thing. It would be possible to use something like Google SSO, but I don&rsquo;t like Google (or any other SSO provider for that matter). I could just use Cloudflare Access and email codes, but I already hear my users crying that they didn&rsquo;t get the code, and that&rsquo;s the last thing I want.</p>
+<p>But, since I already self-host so much, what&rsquo;s one more service. I decided to use authentik.</p>
 </section>
 
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <h2 class="!my-0">Setting up SSO on all of my self-hosted services</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Mar 1, 2026</time
-  >
-  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/sso-move/">Setting up SSO on all of my self-hosted services</a>
-</section>
-
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <h2 class="!my-0">Offloading processes to NVidia GPU on Fedora</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Feb 20, 2026</time
-  >
-  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/nvidia-offload/">Offloading processes to NVidia GPU on Fedora</a>
-</section>
 
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <h2 class="!my-0">Moving away from Gmail</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Apr 29, 2025</time
-  >
-  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/moving-mails/">Moving away from Gmail</a>
-</section>
-
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <h2 class="!my-0">Hello Hugo!</h2>
-  <time class="text-xs antialiased opacity-60"
-    >Dec 29, 2024</time
-  >
-  <a class="absolute inset-0 text-[0]" href="http://localhost:1313/post/hello-world/">Hello Hugo!</a>
-</section>
+
+  
+  
+
+  
+  
+
+  
 
 
-
-
+  
+</article>
 
 
     </main>

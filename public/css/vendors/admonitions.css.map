@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "admonitions.css",
-	"sourceRoot": "/home/smoliicek/_PROJECTS/blog-2.0",
+	"sourceRoot": "/home/smoliicek/_PROJECTS/_SITES/blog-2.0",
 	"sources": [
 		"themes/hugo-admonitions/assets/sass/vendors/_admonitions.scss",
 		"themes/hugo-admonitions/assets/sass/vendors/_admonitions-user-settings.scss"

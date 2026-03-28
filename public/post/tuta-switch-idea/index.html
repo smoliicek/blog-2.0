@@ -1,0 +1,502 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Switching email providers, again - smoliicek - blog</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Renewal time. That&rsquo;s usually when I start questioning my life choices, at least the email-related ones.
+I&rsquo;ve been a Tuta user for almost a year now. However, there are some things that have been bugging me, and since I have to decide soon anyway, I think it&rsquo;s a good time now to look back and reassess.
+Background
+Before we dive in, some context - I switched from Gmail to Tuta in April of 2025. Then, I was choosing between Proton, Tuta, Fastmail, Mailfence and Zoho. Some (like Zoho and Fastmail) aren&rsquo;t hosted in countries that respect my privacy, so I crossed them off. At the end, I was choosing between Tuta and Proton (and ultimately chose Tuta)." />
+  <meta name="author" content="Vít Smolík" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.svg" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://libravatar.org/avatar/4715037e8e298e1cc71d099c5a2c3557?s=80" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/github.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/instagram.svg" />
+  
+  <link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+  integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+  crossorigin="anonymous"
+/>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+  integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+  crossorigin="anonymous"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+  integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+  crossorigin="anonymous"
+></script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', () =>
+    renderMathInElement(document.body, {
+      
+      
+      delimiters: [
+        { left: '$$', right: '$$', display: true },
+        { left: '$', right: '$', display: false },
+      ],
+      
+      throwOnError: false,
+    }),
+  );
+</script>
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.152.2">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="http://localhost:1313/"
+      >smoliicek - blog</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/smoliiczech"
+        target="_blank"
+        rel="me"
+      >
+        twitter
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/smoliicek"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./instagram.svg)"
+        href="https://instagram.com/smoliik.v"
+        target="_blank"
+        rel="me"
+      >
+        instagram
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >
+        rss
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100vh-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">Switching email providers, again</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Mar 28, 2026</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><p>Renewal time. That&rsquo;s usually when I start questioning my life choices, at least the email-related ones.</p>
+<p>I&rsquo;ve been a Tuta user for almost a year now. However, there are some things that have been bugging me, and since I have to decide soon anyway, I think it&rsquo;s a good time now to look back and reassess.</p>
+<h2 id="background">Background</h2>
+<p>Before we dive in, some context - I switched from Gmail to Tuta in <a href="https://smoliicek.cz/post/moving-mails/">April of 2025</a>. Then, I was choosing between Proton, Tuta, Fastmail, Mailfence and Zoho. Some (like Zoho and Fastmail) aren&rsquo;t hosted in countries that respect my privacy, so I crossed them off. At the end, I was choosing between Tuta and Proton (and ultimately chose Tuta).</p>
+<p>Now, since I&rsquo;m again a bit smarter this year, I have a new list of providers I could switch to. Before anyone asks, my stance to Proton is pretty negative, I don&rsquo;t really like how they do things. I don&rsquo;t have anything against people who use them, and my stance can also change. However, today, Proton will not be an option for me.</p>
+<h2 id="retrospective-about-my-last-switch">Retrospective about my last switch</h2>
+<p>My last switch of email providers was&hellip; something. It was rushed, since I had only a few days before all my emails would stop hitting my inbox. Since I wasn&rsquo;t using an email alias (I had the one I use now, just wasn&rsquo;t using it), I needed to reconfigure EVERY service I use, and update all my contacts with my new email address.</p>
+<p>Google eventually did nothing, and even though I didn&rsquo;t send them my ID, my emails kept coming and some emails from stray services still sometimes come to my Gmail inbox. However, the damage was done.</p>
+<p>You can read more about my decision <a href="https://smoliicek.cz/post/moving-mails/">here</a>.</p>
+<h2 id="about-tuta">About Tuta</h2>
+<p>Before I even start, I want to say that Tuta is an excellent email provider. It&rsquo;s really secure and respects your privacy. When I look back, Tuta was a good choice.</p>
+<p>Things I like about Tuta:</p>
+<ul>
+<li>It&rsquo;s the only email provider to date that encrypts the subject of your message (when both parties use Tuta).</li>
+<li>Tuta encrypts your whole mailbox.</li>
+<li>They are based in Germany and have a strong no-logging policy.</li>
+<li>The support is the greatest I have ever seen. I never waited more than a few hours for their reaction.</li>
+<li>Once an address is registered, it cannot be taken by anyone else (even if you cancel your account)</li>
+</ul>
+<p>There are also some things I don&rsquo;t like:</p>
+<ul>
+<li>Lacks GPG support.</li>
+<li>Their encryption is excellent, however, it works only when the other party is also using Tuta.</li>
+<li>I cannot use any other email client than theirs.</li>
+<li>The search is slow.</li>
+</ul>
+<p>That brings me to what I&rsquo;m looking for in a new email provider.</p>
+<h2 id="my-preferences">My preferences</h2>
+<p>I&rsquo;ll get to the list shortly, but first, some of my preferences.</p>
+<h3 id="gpg">GPG</h3>
+<p>In my original post, I stated:</p>
+<blockquote>
+<p>I know, I know, it doesn’t support PGP, but nothing is stopping me from encrypting the message myself and sending it like that, is it?</p>
+</blockquote>
+<p>I was VERY wrong. At that time I didn&rsquo;t need to encrypt/sign much with PGP, so it didn&rsquo;t really matter to me. However, now that I&rsquo;m contributing in the open source community, PGP has become something I use on a daily basis. Clear-signing sometimes breaks, since every mail client formats the text a little differently (and sometimes adds trailing new lines, which PGP isn&rsquo;t happy about). Currently I&rsquo;ve been attaching the clear-signed message or the detached signature with the email. However, that is a hassle for me, since I need to write it elsewhere - sign it - copy to Tuta - attach signatures - send.</p>
+<p>This is automatic in every other email I own, since Thunderbird autosigns everything and just asks me to put my finger on my Yubikey.</p>
+<h3 id="encryption-of-my-mailbox">Encryption of my mailbox</h3>
+<p>This is another thing that I like about Tuta, and if I move, I need this in my new mailbox. Encrypting incoming messages on the fly. It would be fantastic if this could also use PGP, but I will not complain if it doesn&rsquo;t.</p>
+<h3 id="imap-support">IMAP support</h3>
+<p>I really like the Tuta app. I think it&rsquo;s great and works well. However, the lack of GPG support officially, and not being able to take my email to another app really sucks.
+I get why it&rsquo;s done this way, and I frankly don&rsquo;t like the way Proton does things (the bridge you need to run). What I&rsquo;m looking for is native IMAP support, no bridges and no workarounds.</p>
+<h3 id="auto-sorting-and-folders">Auto sorting and folders</h3>
+<p>Since the Tuta search isn&rsquo;t great (especially when searching for older emails) I started to really organise my inbox and I fell in love with it. Everything gets its own folder, so I mostly don&rsquo;t use the search function.</p>
+<p>I&rsquo;d like to keep the ability to organise my emails.</p>
+<h3 id="aliases-with-my-own-domain">Aliases with my own domain</h3>
+<p>When I moved to Tuta, I didn&rsquo;t set my main address everywhere, I set up my <a href="mailto:me@smoliicek.cz">me@smoliicek.cz</a> as an alias and then used that. In retrospect, that was an excellent idea, since now, if I decide to move it will be easier.
+That said, for it to be easier, the new provider obviously needs to support it.</p>
+<h2 id="comparing-providers">Comparing providers</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: center">Tuta</th>
+          <th style="text-align: center">mailbox.org</th>
+          <th style="text-align: center">Posteo</th>
+          <th style="text-align: center">Mailfence</th>
+          <th style="text-align: center">Self-host</th>
+          <th style="text-align: center">Proton</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">GPG support</td>
+          <td style="text-align: center">No</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">IMAP</td>
+          <td style="text-align: center">No</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Partial</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Mailbox encryption</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Partial</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Folders</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Custom domain</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">No</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+          <td style="text-align: center">Yes</td>
+      </tr>
+  </tbody>
+</table>
+<p>I will talk more about each provider in the order they are listed.</p>
+<h3 id="tuta">Tuta</h3>
+<p>It&rsquo;s the first one that comes to mind, not switching is also a choice and I think it&rsquo;s good to have something to compare to.
+Technically I could continue working around the lack of IMAP and GPG support, but I set out to fix exactly these pain points, so staying feels like giving up on that.</p>
+<h3 id="mailboxorg">Mailbox.org</h3>
+<p>A provider I didn&rsquo;t even consider last time. It does everything I want it to. Some things to note, their inbox encryption relies on PGP, which means providing them with your private key so you can decrypt it in the web client. It&rsquo;s a trust trade-off worth being aware of.</p>
+
+          <link rel="stylesheet" href="/css/vendors/admonitions.css">
+    <div class="admonition note admonition--headless">
+      <div class="admonition-content">
+        <p>You can skip uploading your private key entirely, just retrieve the encrypted mail via IMAP and decrypt locally in Thunderbird with your locally stored key.</p>
+      </div>
+    </div><h3 id="posteo">Posteo</h3>
+<p>Oh, Posteo, it sure is compelling. It supports proper E2E encryption, supports IMAP, GPG and has full inbox encryption, however it does not support custom domains - that is a deal breaker for me.</p>
+<h3 id="mailfence">Mailfence</h3>
+<p>I crossed Mailfence out with these words last time:</p>
+<blockquote>
+<p>I also wanted something that at least 3 people know of (joke, don’t come at me), so MailFence is also out.</p>
+</blockquote>
+<p>However today, it seems like a good option. It supports everything, however the inbox encryption is a bit lacking, it only encrypts emails you manually set as encrypted with PGP.</p>
+<h3 id="proton">Proton</h3>
+<p>I know, I said it wouldn&rsquo;t be an option. But it still is a big provider in the privacy scene, so I&rsquo;m including it for completeness&rsquo; sake.</p>
+<p>It supports everything, but partially&hellip; The need to run a separate app to use IMAP makes me just want to ditch it all together. It also means I can&rsquo;t use Thunderbird on my phone. It&rsquo;s something I cannot stand and just don&rsquo;t want to deal with.</p>
+<h3 id="self-host">Self-host</h3>
+<p>It is a consideration for me. I like hosting stuff, everything I want is supported by self-hosting. However, I&rsquo;m still a &ldquo;newbie&rdquo; in the self-hosting world and I don&rsquo;t trust myself running something as important for me as email myself</p>
+<h2 id="whats-next">What&rsquo;s next?</h2>
+<p>Currently, <strong>mailbox.org</strong> is my top candidate. It checks every box, and the PGP/IMAP story is exactly what I&rsquo;ve been missing with Tuta.</p>
+<p>That said, I&rsquo;m not ready to flip the switch just yet. Email is a really big part of my life and work, switching email providers isn&rsquo;t something I want to rush <em>again</em>. My plan now is to run Mailbox alongside Tuta for a while to get a feel for it and also see how it holds up in my day-to-day use.</p>
+<p>When I make my choice, and decide where/if to switch, I&rsquo;ll make a follow-up post about the migration process and how it went.</p>
+<p>Until then, happy emailing!</p>
+<p>&ndash; Signed-off-by: smoliicek <a href="mailto:me@smoliicek.cz">&lt;me@smoliicek.cz&gt;</a></p>
+</section>
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    © 2026, smoliicek.cz
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+
+  </body>
+</html>
