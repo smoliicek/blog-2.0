@@ -1,5 +1,5 @@
 +++
-date = '2026-03-29T8:00:00+01:00'
+date = '2026-03-26T8:00:00+01:00'
 draft = false
 title = 'Setting up SSO on all of my self-hosted services'
 +++
@@ -65,4 +65,3 @@ If you're self-hosting more than 2 or 3 services for other people, I'd genuinely
 Happy signing in! :)
 
 -- Signed-off-by: smoliicek [\<me@smoliicek.cz\>](mailto:me@smoliicek.cz)
-
