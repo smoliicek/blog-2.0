@@ -97,7 +97,7 @@ Technically I could continue working around the lack of IMAP and GPG support, bu
 
 A provider I didn't even consider last time. It does everything I want it to. Some things to note, their inbox encryption relies on PGP, which means providing them with your private key so you can decrypt it in the web client. It's a trust trade-off worth being aware of.
 
-> [!NOTE] ""
+> [!NOTE] NOTE
 > You can skip uploading your private key entirely, just retrieve the encrypted mail via IMAP and decrypt locally in Thunderbird with your locally stored key.
 
 ### Posteo

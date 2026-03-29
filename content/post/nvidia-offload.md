@@ -26,7 +26,7 @@ sudo chmod +x /usr/local/bin/prime-run
 exec bash
 ```
 
-> [!TIP] ""
+> [!TIP] TIP
 > It's generally a good idea to check scripts before running and downloading them.
 >
 > This script is safe, and cannot do any harm, since it only sets some enviroment variables, the variables are only applied for the duration of the command runtime.
